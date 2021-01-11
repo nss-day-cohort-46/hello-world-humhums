@@ -15,3 +15,7 @@ nav {
     display: flex;
     align-items: center;
 }
+
+body {
+    margin: 0;
+}
