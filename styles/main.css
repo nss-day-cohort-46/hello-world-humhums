@@ -8,14 +8,96 @@
 @import "./sectionNav.css";
 @import "./subheader.css";
 
+body {
+	margin: 0;
+	background-color: whitesmoke;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
+
 header {
+	background-color: whitesmoke;
+	/* padding: 60px 0; */
+	display: flex;
+	flex-wrap: nowrap;
+	
 }
 
 nav {
-    display: flex;
-    align-items: center;
+	/* height: 80px; */
+	width: 100%;
+	/* padding: 50px; */
+	margin: 0;
+	display: flex;
+	align-items: center;
 }
 
-body {
-    margin: 0;
+nav a {
+	
+}
+
+.logo {
+	/* padding-left: 20px; */
+	
+}
+.logo img {
+	height: 100px;
+	width: 100px;
+}
+
+nav a {
+	padding: 0 15px;
+	color: #222222;
+}
+
+.subheader__img {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+h2 {
+	text-align: center;
+	font-size: x-large;
+	/* background-color: cadetblue; */
+	padding: 20px;
+	margin-top: 0;
+}
+
+article {
+	height: 60%;
+	padding: 10px;
+}
+
+h3 {
+	padding: 0 100px;
+}
+
+.contentContainer__cities {
+	background-color: indianred;
+}
+
+.contentContainer__landmarks {
+	background-color: salmon;
+}
+
+.contentContainer__citizens {
+	background-color: indianred;
+}
+
+.contentContainer__cards {
+	padding-right: 100px;
+	padding-left: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 100px 50px;
+}
+
+.card {
+	width: 200px;
+	background-color: snow;
+	margin: 10px;
+	height: 200px;
+}
+
+footer {
+	background-color: whitesmoke;
 }
