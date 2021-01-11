@@ -1,3 +1,13 @@
+@import "./cities.css";
+@import "./citizens.css";
+@import "./contentContainer.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./japan.css";
+@import "./landmarks.css";
+@import "./sectionNav.css";
+@import "./subheader.css";
+
 body {
 	margin: 0;
 	background-color: whitesmoke;
