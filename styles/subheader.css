@@ -1,14 +1,19 @@
 .subheader {
     height: 400px;
     position: relative;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .subheader__img {
     width: 100%;
-    object-fit: none;
+    object-fit: cover;
     object-position: center;
     height: 400px;
-    filter: blur(2px);
+    opacity: .4;
+    /* filter: blur(2px); */
 }
 
 h1 {
@@ -22,11 +27,11 @@ h1 {
     font-size: 100px;
     color: white;
     position: absolute;
-    top: 50%;
+    /* top: 50%;
     left: 50%;
     margin-left: -130px;
     margin-top: -57px;
-    z-index: 2;
+    z-index: 2; */
 }
 
 h2 {
