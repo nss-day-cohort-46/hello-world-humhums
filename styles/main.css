@@ -90,7 +90,7 @@ h3 {
 	padding-right: 100px;
 	padding-left: 100px;
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: column wrap;
 	padding: 0 100px 50px;
 }
 
