@@ -1,0 +1,41 @@
+.card {
+    width: 250px;
+    height: 250px;
+    margin: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+}
+
+.contentContainer {
+    margin: 0;
+    padding: 0;
+}
+
+.ContentContainer__cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardImages {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    overflow: hidden;
+    opacity: .9;
+    border-radius: 1%;
+}
+
+h4 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 0 0 30px black;
+    z-index: 2;
+    padding: 10px;
+}
