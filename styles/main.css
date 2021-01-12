@@ -31,22 +31,20 @@ nav {
 	align-items: center;
 }
 
-/* nav a {
-	
-} */
+.link {
+	text-decoration: none;
+	padding: 20px;
+	/* margin-left: 10px; */
+}
 
-/* .logo {
-	/* padding-left: 20px; 
-}*/
-	
-
-.logo {
-	/* padding-left: 20px; */
+.link:hover {
+	background-color: gainsboro;
 	
 }
+
 .logo img {
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 }
 
 nav a {
