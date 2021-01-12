@@ -25,6 +25,8 @@
     object-position: center;
     height: 100%;
     overflow: hidden;
+    opacity: .9;
+    border-radius: 1%;
 }
 
 .landingCardAnchor {
@@ -33,4 +35,8 @@
 
 .landingPageCountryLabels {
     position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 0 0 30px black;
 }
