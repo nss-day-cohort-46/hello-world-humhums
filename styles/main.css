@@ -102,7 +102,9 @@ h3 {
 }
 
 .card img {
-	height: 300px;
+	height: 100px;
+	width: auto;
+	object-fit: contain;
 }
 
 footer {
