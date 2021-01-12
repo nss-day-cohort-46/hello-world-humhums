@@ -4,3 +4,8 @@ nav {
 .navLink {
     margin: 10px;
 }
+
+/* this could be changed to hover instead of active */
+a:active {
+    text-shadow: 1px 1px 1px #000;
+}
