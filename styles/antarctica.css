@@ -6,10 +6,19 @@
 
 .antarcticaImages {
     width: 100%;
-    max-width:100px;
-    max-height: 100px;
+    height: 100%;
+    /* max-width:250px; */
+    /* max-height: 250px; */
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    opacity: .9;
+    border-radius: 1%;
 }
 
 /* antarctica {
 } */
 
+/* .logo_antarctica {
+  width: 50px;
+} */
