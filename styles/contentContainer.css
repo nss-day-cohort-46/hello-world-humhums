@@ -1,0 +1,26 @@
+.contentContainer__countries {
+    margin: 0;
+    padding: 0;
+}
+
+.landingContentContainer__cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.landingCard {
+    width: 125px;
+    height: 75px;
+    margin: 10px;
+}
+
+.landingCountryImg {
+    object-fit: none;
+    object-position: center;
+    width: 100%;
+}
+
+.landingCardAnchor {
+
+}
