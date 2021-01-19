@@ -2,26 +2,26 @@ import { City } from "./City.js"
 import { useCities } from "./CityDataProvider.js"
 
 let cityHTML = ""
-const buildCityHTML = (cityArray) => {
+const buildCitizensHTML = (cityArray) => {
     for (const cityObj of cityArray) {
         cityHTML += City(cityObj)
         console.log("city", cityObj)
     }
-    return cityHTML
+    return citzenHTML
 }
 
 export const CityList = () => {
     const contentElement = document.querySelector(".contentContainer")
 
-    const allCitiesArray = useCities()
+    const allCitizensArray = useCities()
 
-    buildCityHTML(allCitiesArray)
+    buildCitizensHTML(allCitizensArray)
 
     contentElement.innerHTML += `
         <article class="contentContainer__cities">
-            <h3>Cities to Visit</h3>
+            <h3>Famous Citizens</h3>
             <div class="contentContainer__cards ">
-                ${cityHTML}
+                ${citizenHTML}
             </div>
         </article>
         `
