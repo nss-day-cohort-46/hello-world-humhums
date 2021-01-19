@@ -10,19 +10,19 @@ const cityCollection = [
         name: "Prauge"
     },
     {
-        image: "",
-        alt: "",
-        name: ""
+        image: "../../../images/images_czech/telc.jpg",
+        alt: "The colorful storefronts of the Telc town square",
+        name: "Telc"
     },
     {
-        image: "",
-        alt: "",
-        name: ""
+        image: "../../../images/images_czech/karlovy-vary.jpg",
+        alt: "The colorful hilly city of Karlovy Vary",
+        name: "Karlovy Vary"
     },
     {
-        image: "",
-        alt: "",
-        name: ""
+        image: "../../../images/images_czech/tabor.jpg",
+        alt: "A sunny, snow dusted street in the city of Tabor",
+        name: "Tabor"
     }
 ]
 
