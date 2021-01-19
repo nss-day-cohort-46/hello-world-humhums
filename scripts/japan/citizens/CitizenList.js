@@ -1,24 +1,24 @@
-import { City } from "./City.js"
-import { useCities } from "./CityDataProvider.js"
+import { Citizen } from "./Citizen.js"
+import { useCitizens } from "./CitizenDataProvider.js"
 
-let cityHTML = ""
-const buildCitizensHTML = (cityArray) => {
-    for (const cityObj of cityArray) {
-        cityHTML += City(cityObj)
-        console.log("city", cityObj)
+let citizenHTML = ""
+const buildCitizensHTML = (citizenArray) => {
+    for (const citizenObj of citizenArray) {
+        citizenHTML += Citizen(citizenObj)
+        console.log("citizen", citizenObj)
     }
-    return citzenHTML
+    return citizenHTML
 }
 
-export const CityList = () => {
+export const CitizenList = () => {
     const contentElement = document.querySelector(".contentContainer")
 
-    const allCitizensArray = useCities()
+    const allCitizensArray = useCitizens()
 
     buildCitizensHTML(allCitizensArray)
 
     contentElement.innerHTML += `
-        <article class="contentContainer__cities">
+        <article class="contentContainer__citizens">
             <h3>Famous Citizens</h3>
             <div class="contentContainer__cards ">
                 ${citizenHTML}

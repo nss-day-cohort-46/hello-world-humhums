@@ -1,8 +1,8 @@
-export const City = (city) => {
+export const Citizen = (citizen) => {
     return ` 
     <div class="card">
-        <img class="cardImages" src="${city.image}" alt="${city.alt}">
-        <p>${city.name}</p>
+        <img class="cardImages" src="${citizen.image}" alt="${citizen.alt}">
+        <p>${citizen.name}</p>
     </div> 
     `
 }
