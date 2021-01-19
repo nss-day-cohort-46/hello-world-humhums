@@ -5,7 +5,7 @@ let cityHTML = ""
 const buildCityHTML = (cityArray) => {
     for (const cityObj of cityArray) {
         cityHTML += City(cityObj)
-
+        console.log("city", cityObj)
     }
     return cityHTML
 }
@@ -18,11 +18,11 @@ export const CityList = () => {
     buildCityHTML(allCitiesArray)
 
     contentElement.innerHTML += `
-    <article class="contentContainer__cities">
-        <h3>Cities to Visit</h3>
-        <div class="contentContainer__cards">
-            ${cityHTML}
-        </div>
-        </article>   
-    `
+        <article class="contentContainer__cities">
+            <h3>Cities to Visit</h3>
+            <div class="contentContainer__cards ">
+                ${cityHTML}
+            </div>
+        </article>
+        `
 }

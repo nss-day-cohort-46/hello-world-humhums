@@ -1,28 +1,28 @@
 const cityCollection = [
     {
-        image: "",
-        alt: "",
-        name: "",
+        image: "../../../images/images_ireland/dublin.jpg",
+        alt: "photo of Dublin, Ireland",
+        name: "Dublin",
     },
     {
-        image: "",
-        alt: "",
-        name: "",
+        image: "../../../images/images_ireland/galway.jpg",
+        alt: "photo of Galway, Ireland",
+        name: "Galway",
     },
     {
-        image: "",
-        alt: "",
-        name: "",
+        image: "../../../images/images_ireland/cork.jpg",
+        alt: "photo of Cork, Ireland",
+        name: "Cork",
     },
     {
-        image: "",
-        alt: "",
-        name: "",
+        image: "../../../images/images_ireland/waterford.jpg",
+        alt: "photo of Waterford, Ireland",
+        name: "Waterford",
     },
     {
-        image: "",
-        alt: "",
-        name: "",
+        image: "../../../images/images_ireland/killarney.jpg",
+        alt: "photo of Killarney, Ireland",
+        name: "Killarney",
     },
 ]
 
