@@ -103,11 +103,21 @@ h3 {
 }
 
 .card img {
-	height: 100px;
+	height: 120px;
 	width: auto;
 	object-fit: contain;
 }
 
 footer {
 	background-color: whitesmoke;
+}
+
+.card p {
+	position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 0 0 30px black;
+    z-index: 2;
+    padding: 10px;
 }
