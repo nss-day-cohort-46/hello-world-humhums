@@ -1,4 +1,4 @@
-const City = (city) => {
+export const City = (city) => {
     return `
     <div class="card">
         <img class="cardImages" src="${city.image}" alt="${city.alt}"></img>
