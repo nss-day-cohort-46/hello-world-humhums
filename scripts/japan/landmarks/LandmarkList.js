@@ -2,10 +2,10 @@ import { Landmark } from "./Landmark.js"
 import { useLandmarks } from "./LandmarkDataProvider.js"
 
 let landmarkHTML = ""
-const buildLandmarkHTML = (landmarkArray) => {
+const buildLandmarksHTML = (landmarkArray) => {
     for (const landmarkObj of landmarkArray) {
         landmarkHTML += Landmark(landmarkObj)
-
+        console.log("landmark", landmarkObj)
     }
     return landmarkHTML
 }
@@ -15,14 +15,14 @@ export const LandmarkList = () => {
 
     const allLandmarksArray = useLandmarks()
 
-    buildLandmarkHTML(allLandmarksArray)
+    buildLandmarksHTML(allLandmarksArray)
 
     contentElement.innerHTML += `
-    <article class="contentContainer__landmarks">
-        <h3>Must see Landmarks</h3>
-        <div class="contentContainer__cards">
-            ${landmarkHTML}
-        </div>
-    </article>        
-    `
+        <article class="contentContainer__landmarks">
+            <h3>Noteworthy Landmarks</h3>
+            <div class="contentContainer__cards ">
+                ${landmarkHTML}
+            </div>
+        </article>
+        `
 }

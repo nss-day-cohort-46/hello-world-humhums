@@ -2,10 +2,10 @@ import { Citizen } from "./Citizen.js"
 import { useCitizens } from "./CitizenDataProvider.js"
 
 let citizenHTML = ""
-const buildCitizenHTML = (citizenArray) => {
+const buildCitizensHTML = (citizenArray) => {
     for (const citizenObj of citizenArray) {
         citizenHTML += Citizen(citizenObj)
-
+        console.log("citizen", citizenObj)
     }
     return citizenHTML
 }
@@ -15,14 +15,14 @@ export const CitizenList = () => {
 
     const allCitizensArray = useCitizens()
 
-    buildCitizenHTML(allCitizensArray)
+    buildCitizensHTML(allCitizensArray)
 
     contentElement.innerHTML += `
-    <article class="contentContainer__citizens">
-    <h3>Famous Citizens</h3>
-    <div class="contentContainer__cards">
-        ${citizenHTML}
-    </div>
-    </article>  
-    `
+        <article class="contentContainer__citizens">
+            <h3>Famous Citizens</h3>
+            <div class="contentContainer__cards ">
+                ${citizenHTML}
+            </div>
+        </article>
+        `
 }
