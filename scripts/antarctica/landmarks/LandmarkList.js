@@ -18,9 +18,9 @@ export const LandmarkList = () => {
     
     contentElement.innerHTML += `
         <article class="contentContainer__landmarks">"
-            <h3>Cities to Visit</h3>
+            <h3>Landmarks to Visit</h3>
             <div class="contentContainer__cards">
-                ${landHTML}
+                ${landmarkHTML}
             </div>
         </article>
         `
