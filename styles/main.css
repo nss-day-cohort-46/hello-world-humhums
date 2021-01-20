@@ -20,7 +20,6 @@ header {
 	/* padding: 60px 0; */
 	display: flex;
 	flex-wrap: nowrap;
-	
 }
 
 nav {
@@ -102,22 +101,16 @@ h3 {
 	height: 200px;
 }
 
-.card img {
-	height: 120px;
-	width: auto;
-	object-fit: contain;
-}
-
 footer {
 	background-color: whitesmoke;
 }
 
 .card p {
 	position: absolute;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: x-large;
     text-align: center;
-    text-shadow: 0 0 30px black;
+    text-shadow: 0 0 60px black;
     z-index: 2;
     padding: 10px;
 }

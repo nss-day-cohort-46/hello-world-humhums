@@ -1,8 +1,8 @@
 export const Citizen = (citizen) => {
-    return `
+    return ` 
     <div class="card">
         <img class="cardImages" src="${citizen.image}" alt="${citizen.alt}">
         <p>${citizen.name}</p>
-    </div>
+    </div> 
     `
 }

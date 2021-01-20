@@ -1,5 +1,6 @@
+import { useCities } from './CityDataProvider.js'
 import { City } from "./City.js"
-import { useCities } from "./CityDataProvider.js"
+
 
 
 let cityHTML = ""
@@ -11,17 +12,20 @@ const buildCityHTML = (cityArray) => {
 }
 
 export const CityList = () => {
-    const contentElement = document.querySelector(".contentContainer")
 
+    // Get a reference to the `<article class="content">` element
+    const contentElement = document.querySelector(".contentContainer")
     const allCitiesArray = useCities()
+
     buildCityHTML(allCitiesArray)
-    
+
+    // Add to the existing HTML in the content element
     contentElement.innerHTML += `
-        <article class="contentContainer__cities">"
+        <article class="contentContainer__cities">
             <h3>Cities to Visit</h3>
             <div class="contentContainer__cards">
                 ${cityHTML}
             </div>
         </article>
-        `
+    `
 }
