@@ -6,8 +6,8 @@ const cityCollection = [
     },
     {
         image: "../../../images/images_czech/prague.jpg",
-        alt: "Prauge street with statues and the famous tunnel at sunset",
-        name: "Prauge"
+        alt: "Prague street with statues and the famous tunnel at sunset",
+        name: "Prague"
     },
     {
         image: "../../../images/images_czech/telc.jpg",
