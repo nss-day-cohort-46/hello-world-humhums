@@ -15,7 +15,7 @@ const citizenCollection = [
         name: "Sir Ernest Shackleton"
     },
     {
-        image: "https://lh3.googleusercontent.com/proxy/zIIjLFOkAU-IFlo_3duVL17u59H1oUcxZDN5x864TW7kiyk_UjlBdVk5iylpLLnsgKv92YiMkoZWQUlh49X5sl4ZZw5N718SqFJ1",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/32/James_Clark_Ross_%28cropped%29.jpg",
         alt: "Sir James Clark Ross",
         name: "Sir James Clark Ross"
     },
