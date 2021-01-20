@@ -1,34 +1,32 @@
 
+const landmarkCollection = [
+    {
+        image: "../../../images/images_Antarctica/McMurdo.jpg",
+        alt: "McMurdo Station",
+        name: "McMurdo Station",
+    },  
+    {
+        image: "../../../images/images_Antarctica/icebergFriends.jpg",
+        alt: "Glaciers & Ice Caves",
+        name: "Glaciers & Ice Caves",
+    },  
+    {
+        image: "../../../images/images_Antarctica/capeEvans.jpg",
+        alt: "Historic Explorer Huts",
+        name: "Historic Explorer Huts",
+    },
+    {
+        image: "../../../images/images_Antarctica/3 Stooges.jpg",
+        alt: "3 Emperor Penguins",
+        name: "Wildlife",
+    },
+    {
+        image: "../../../images/images_Antarctica/fieldCamp.jpg",
+        alt: "A field camp in Antarctica",
+        name: "Field Camps",
+    },
+]
 
-
-
-
-
-
-
-
-// <article class="contentContainer__landmarks">
-//                     <h3>Must See Landmarks</h3>
-//                     <div class="contentContainer__cards">
-//                         <div class="card">
-//                             <img class="antarcticaImages" src="images_Antarctica/McMurdo.jpg" alt="">
-//                             <p>McMurdo Station</p>
-//                         </div>
-//                         <div class="card">
-//                             <img class="antarcticaImages" src="images_Antarctica/Cape Evans.jpg" alt="">
-//                             <p>Historic Explorer Huts</p>
-//                         </div>
-//                         <div class="card">
-//                             <img class="antarcticaImages" src="images_Antarctica/Barnes Glacier.jpg" alt="">
-//                             <p>Glaciers & Ice Caves</p>
-//                         </div>
-//                         <div class="card">
-//                             <img class="antarcticaImages" src="images_Antarctica/3 Stooges.jpg" alt="">
-//                             <p>Wildlife</p>
-//                         </div>
-//                         <div class="card">
-//                             <img class="antarcticaImages" src="images_Antarctica/fieldCamp.jpg" alt="">
-//                             <p>Field Camps</p>
-//                         </div>
-//                     </div>
-//                 </article>
+export const useLandmarks = () => {
+    return landmarkCollection.slice()
+}

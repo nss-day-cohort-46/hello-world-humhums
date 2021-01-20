@@ -4,5 +4,5 @@ import { CityList } from "./cities/CityList.js"
 
 
 CityList()
-CitizenList()
 LandmarkList()
+CitizenList()
