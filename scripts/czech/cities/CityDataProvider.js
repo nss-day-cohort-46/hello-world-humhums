@@ -1,28 +1,28 @@
 const cityCollection = [
     {
         image: "../../../images/images_czech/cesky-krumlov.jpg",
-        alt: "Cesky",
+        alt: "Cesky Krumlov, a preserved medieval town with red roofs, green trees, and a blue river surrounding it",
         name: "Cesky Krumlov"
     },
     {
-        image: "",
-        alt: "",
-        name: ""
+        image: "../../../images/images_czech/prague.jpg",
+        alt: "Prauge street with statues and the famous tunnel at sunset",
+        name: "Prauge"
     },
     {
-        image: "",
-        alt: "",
-        name: ""
+        image: "../../../images/images_czech/telc.jpg",
+        alt: "The colorful storefronts of the Telc town square",
+        name: "Telc"
     },
     {
-        image: "",
-        alt: "",
-        name: ""
+        image: "../../../images/images_czech/karlovy-vary.jpg",
+        alt: "The colorful hilly city of Karlovy Vary",
+        name: "Karlovy Vary"
     },
     {
-        image: "",
-        alt: "",
-        name: ""
+        image: "../../../images/images_czech/tabor.jpg",
+        alt: "A sunny, snow dusted street in the city of Tabor",
+        name: "Tabor"
     }
 ]
 
