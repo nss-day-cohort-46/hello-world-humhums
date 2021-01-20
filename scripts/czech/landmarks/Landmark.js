@@ -5,8 +5,4 @@ export const Landmark = (landmark) => {
         <p>${landmark.name}</p>
     </div> 
     `
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> main

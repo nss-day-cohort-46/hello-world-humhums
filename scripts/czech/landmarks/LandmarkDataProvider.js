@@ -28,8 +28,4 @@ const landmarkCollection = [
 
 export const useLandmarks = () => {
     return landmarkCollection.slice()
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> main
